@@ -8,6 +8,8 @@ Also check the [OpenLDAP Server documentation at the Ubuntu Server Guide](https:
 
 # Usage
 
+git clone https://github.com/yuvalbm/my_ldap-vagrant.git
+
 Run `vagrant up` to configure the `ldap.example.com` LDAP server environment and `openldap-client.local` client environment.
 
 Configure your system `/etc/hosts` file with the `ldap.example.com` domain:
